@@ -4,7 +4,7 @@ import javax.swing.JLabel;
 public class Main extends  JFrame{
 
     public Main() {
-        JLabel lblSaludo = new JLabel("Hola Mundo. \nCreando mi primer ejemplo");
+        JLabel lblSaludo = new JLabel("<html>Hola Mundo. <br>Creando mi primer ejemplo</html>");
         add(lblSaludo);
 
         // Aumentamos el tamaño de la ventana, le añadimos un titulo único
